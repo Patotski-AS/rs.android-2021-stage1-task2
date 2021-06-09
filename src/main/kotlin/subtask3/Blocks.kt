@@ -15,7 +15,7 @@ class Blocks {
                 .take(1)
                 .map { it.format(DateTimeFormatter.ofPattern("dd.MM.yyyy"))}
                 .toString().trim('[',']')
-            else -> " "
+            else -> Any()
         }
     }
 }
