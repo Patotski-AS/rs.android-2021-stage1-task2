@@ -6,7 +6,6 @@ import java.time.format.DateTimeFormatter
 
 class DateFormatter {
 
-    // TODO: Complete the following function
     fun toTextDay(day: String, month: String, year: String): String {
         return try {
             val myDate = LocalDate.of(year.toInt(), month.toInt(), day.toInt())

@@ -14,7 +14,7 @@ class Blocks {
                 .sortedDescending()
                 .take(1)
                 .map { it.format(DateTimeFormatter.ofPattern("dd.MM.yyyy"))}
-                .toString().trim('[', ']')
+                .toString().trim('[',']')
             else -> " "
         }
     }
